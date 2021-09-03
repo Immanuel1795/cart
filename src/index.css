@@ -1,13 +1,50 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+.star {
+    display: inline-block;  
+    cursor: pointer;
+  }
+  
+  .inactive, .active {
+    background: transparent;
+   
+  }
+  
+  .container{
+      padding: 15px;
+  }
+  
+  .cart {
+      font-size: 155px;
+    
+  }
+  
+  .deleteButton {
+      background-color: transparent;
+      border: none;
+     
+  }
+
+  .badge, .produt-name-cart, .trashh{
+      color: #206a5d;
+      font-size: 20px;
+  }
+
+  .add-btn{
+    text-align: center;
+  }
+
+  .my-4{
+      color: #0d6efd;
+      text-align: center;
+  }
+
+  .total-price{
+      text-align: center;
+      color: #0d6efd;
+  }
+
+  .produt-name-cart{
+      border: 1px solid black;
+  }
+
+
